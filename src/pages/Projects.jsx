@@ -1,3 +1,5 @@
+import projectData from "../data/projectsData.json"
+
 const Projects = () => {
     return (
         <div>PROJECTS</div>

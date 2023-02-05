@@ -1,0 +1,41 @@
+[
+    {
+        "company": "Indeed",
+        "dates": "August 2022 - January 2023",
+        "title": "Software Developer Intern",
+        "location": "Seattle, WA",
+        "description": [
+            "JobSeeker Representation Platform Team- stores and maintains data about a JobSeeker, working to keep the data relevant and quickly accessible.",
+            "Tech Stack: Java, Spring Boot",
+            "Supported migration to MongoDB Atlas by using Spring Beans to implement a feature flag",
+            "Introduced feature that will reduce storage requirements in MongoDB by 40%, for over 400 million users",
+            "Improved throughput and data loss for metrics emitted to DataDog",
+            "Built, debugged, and deployed projects in Docker and Jenkins, applied new concepts like method overloading, annotations, interceptors, transformers, and mocking",
+            "Practiced clean, test-driven development and provided complete code coverage using Mockito and JUnit"
+        ]
+    },
+    {
+        "company": "AAA Washington Cruise & Travel",
+        "dates": "January 2018 - March 2022",
+        "title": "Member Travel Counselor III",
+        "location": "Seattle, WA",
+        "description": [
+            "Managed travel plans for multiple clients, through the stages of  inquiry, quoting and booking, active travel, to follow up upon the client’s return",
+            "Consistently achieved travel sales goals that averaged $250,000 per year",
+            "Problem-solved quickly when clients experienced on-travel emergencies or last minute cancellations, especially throughout the course of the pandemic"
+        ]
+    },
+    {
+        "company": "Amami City Board of Education",
+        "dates": "July 2014 - July 2017",
+        "title": "Assistant Language Teacher",
+        "location": "Amami City, Japan",
+        "description": [
+            "Provided native English instruction to 14 schools, grades one through nine",
+            "Developed and taught lessons that suited a wide range of abilities and ages", 
+            "Mentored students to place in local, regional, and national English speech contests",
+            "Acted as guide and interpreter for the two week exchange program from Nacogdoches, TX",
+            "Planned and led the three day summer English school for 50-70 5th and 6th graders"
+        ]
+    }
+]

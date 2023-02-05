@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "school": "Ada Developers Academy",
+        "location": "Seattle, WA",
+        "dates": "March 2022 - January 2023",
+        "degree": "Certificate",
+        "focus": "Full Stack Software Development"
+    },
+    {
+        "id": 2,
+        "school": "University of Washington",
+        "location": "Seattle, WA",
+        "dates": "September 2010 - June 2014",
+        "degree": "Bachelor of Arts",
+        "focus": "Double major in Japanese and Asian Studies"
+    },
+    {
+        "id": 3,
+        "school": "Waseda University",
+        "location": "Tokyo, Japan",
+        "dates": "September 2012 - June 2013",
+        "degree": "Certificate",
+        "focus": "Study Abroad: Intensive Japanese Language Studies"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Personal Portfolio",
+        "techStack": "React, JavaScript, CSS, GitHub",
+        "description": "My personal portfolio site",
+        "image": "",
+        "ghLink": "https://github.com/mckorling/portfolio",
+        "activeLink": ""
+    },
+    {
+        "title": "Photo Journal",
+        "techStack": "Swift, SwiftUI, Core Data",
+        "description": "Mobile iOS app that can ...",
+        "image": "NOT YET",
+        "ghLink": "https://github.com/mckorling/photo-journal-capstone",
+        "activeLink": ""
+    },
+    {
+        "title": "Inspiration Board (back end)",
+        "techStack": "Python, Flask, Postgres, Heroku",
+        "description": "Create different boards with inspirational messages",
+        "image": "",
+        "ghLink": "https://github.com/mckorling/back-end-inspiration-board",
+        "activeLink": ""
+    },
+    {
+        "title": "Inspiration Board (front end)",
+        "techStack": "React, JavaScript, CSS",
+        "description": "Create different boards with inspirational messages",
+        "image": "",
+        "ghLink": "https://github.com/mckorling/front-end-inspiration-board",
+        "activeLink": ""
+    },
+    {
+        "title": "Chatlog",
+        "techStack": "React, JavaScript",
+        "description": "render chat messages",
+        "image": "",
+        "ghLink": "https://github.com/mckorling/react-chatlog",
+        "activeLink": ""
+    },
+    {
+        "title": "Adopt Me",
+        "techStack": "React, JavaScript",
+        "description": "Tutorial project",
+        "image": "",
+        "ghLink": "https://github.com/mckorling/pet-adoption-react-app",
+        "activeLink": ""
+    },
+    {
+        "title": "Command Line Wordle",
+        "techStack": "Python",
+        "description": "recreating the wordle game",
+        "image": "",
+        "ghLink": "",
+        "activeLink": ""
+    }
+]
