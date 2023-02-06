@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "company": "Indeed",
         "dates": "August 2022 - January 2023",
         "title": "Software Developer Intern",
@@ -15,6 +16,7 @@
         ]
     },
     {
+        "id": "2",
         "company": "AAA Washington Cruise & Travel",
         "dates": "January 2018 - March 2022",
         "title": "Member Travel Counselor III",
@@ -26,6 +28,7 @@
         ]
     },
     {
+        "id": "3",
         "company": "Amami City Board of Education",
         "dates": "July 2014 - July 2017",
         "title": "Assistant Language Teacher",

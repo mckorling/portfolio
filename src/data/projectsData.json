@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "title": "Personal Portfolio",
         "techStack": "React, JavaScript, CSS, GitHub",
         "description": "My personal portfolio site",
@@ -8,6 +9,7 @@
         "activeLink": ""
     },
     {
+        "id": "2",
         "title": "Photo Journal",
         "techStack": "Swift, SwiftUI, Core Data",
         "description": "Mobile iOS app that can ...",
@@ -16,6 +18,7 @@
         "activeLink": ""
     },
     {
+        "id": "3",
         "title": "Inspiration Board (back end)",
         "techStack": "Python, Flask, Postgres, Heroku",
         "description": "Create different boards with inspirational messages",
@@ -24,6 +27,7 @@
         "activeLink": ""
     },
     {
+        "id": "4",
         "title": "Inspiration Board (front end)",
         "techStack": "React, JavaScript, CSS",
         "description": "Create different boards with inspirational messages",
@@ -32,6 +36,7 @@
         "activeLink": ""
     },
     {
+        "id": "5",
         "title": "Chatlog",
         "techStack": "React, JavaScript",
         "description": "render chat messages",
@@ -40,6 +45,7 @@
         "activeLink": ""
     },
     {
+        "id": "6",
         "title": "Adopt Me",
         "techStack": "React, JavaScript",
         "description": "Tutorial project",
@@ -48,6 +54,7 @@
         "activeLink": ""
     },
     {
+        "id": "7",
         "title": "Command Line Wordle",
         "techStack": "Python",
         "description": "recreating the wordle game",
