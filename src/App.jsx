@@ -5,8 +5,12 @@ import Projects from './pages/Projects';
 import Layout from './Layout';
 import NoPage from './pages/NoPage';
 import Experience from './pages/Experience';
+import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
+  // library.add(faGithub, faLinkedin);
+
   return (
     <BrowserRouter>
       <Routes>
