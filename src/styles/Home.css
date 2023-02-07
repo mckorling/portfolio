@@ -13,6 +13,10 @@
 }
 
 .home h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     font-weight: 400;
+}
+
+.home h2 {
+    font-size: 2.5em;
 }

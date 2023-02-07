@@ -5,11 +5,12 @@
 }
 
 .singleContainer h3 {
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
 }
 
 .singleContainer p, .singleContainer ul {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .singleContainer ul li {

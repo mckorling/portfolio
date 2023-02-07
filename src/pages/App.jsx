@@ -5,7 +5,7 @@ import Projects from './Projects';
 import Layout from './components/Layout';
 import NoPage from './NoPage';
 import Experience from './Experience';
-import '../src/styles/App.css'
+import '../styles/App.css'
 
 function App() {
   return (

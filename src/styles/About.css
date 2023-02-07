@@ -2,7 +2,9 @@
     width: 430px;
     height: 345px;
     border-radius: 50%;
+    border: 1px solid #fff;
     box-shadow: 0 0 40px 10px #fff;
+    margin-bottom: 3vh;
 }
 
 .info {
