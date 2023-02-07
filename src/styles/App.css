@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;600&family=Roboto:wght@100;300&display=swap');
+
+.all {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(35,8,136,1) 0%, rgba(101,1,132,1) 100%);
+    min-width: 100vw;
+    min-height: 100vh;
+    color: #fff;
+    font-family: "Antonio", sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #fff;
+    font-size: 2em;
+}
+
+ul {
+    padding: 0;
+}

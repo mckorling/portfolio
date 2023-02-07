@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.home ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 1vw;
+}
+
+.home h1 {
+    font-size: 4em;
+    font-weight: 400;
+    
+}

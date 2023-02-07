@@ -1,9 +1,9 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import "../styles/Home.css"
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <h1>Megan Korling</h1>
             <h2>Full Stack Software Developer</h2>
             <ul>
