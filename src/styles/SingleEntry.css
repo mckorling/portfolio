@@ -1,0 +1,18 @@
+.singleContainer {
+    padding-bottom: 1em;
+    margin-bottom: 4vh;
+    border-bottom: 5px solid #fff;
+}
+
+.singleContainer h3 {
+    font-size: 2em;
+}
+
+.singleContainer p, .singleContainer ul {
+    font-size: 1.3em;
+}
+
+.singleContainer ul li {
+    list-style-type: circle;
+    line-height: 1.5em;
+}

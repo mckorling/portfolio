@@ -2,6 +2,7 @@ import educationHistory from '../data/education.json'
 import workHistory from '../data/work.json'
 import Education from './components/Education'
 import Work from './components/Work'
+import '../styles/Experience.css'
 
 const Experience = () => {
     const educationComponents = educationHistory.map((edu) => (
@@ -27,10 +28,10 @@ const Experience = () => {
     ))
 
     return (
-        <div>
+        <div className='experienceContainer'>
             <h2>Work History</h2>
             {workComponents}
-            <h2>Experience</h2>
+            <h2>Education</h2>
             {educationComponents}
         </div>
     )

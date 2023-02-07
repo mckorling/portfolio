@@ -1,0 +1,16 @@
+.experienceContainer {
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.experienceContainer h2 {
+    font-size: 3em;
+    width: fit-content;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #fff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
