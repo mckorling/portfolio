@@ -4,7 +4,7 @@
         "title": "Personal Portfolio",
         "techStack": "React, JavaScript, CSS, GitHub",
         "description": "My personal portfolio site",
-        "image": "",
+        "image": "https://as2.ftcdn.net/v2/jpg/03/39/00/23/1000_F_339002325_ZgEW09DzhAAd3dmEPpv3mnPlzlCEn56C.jpg",
         "ghLink": "https://github.com/mckorling/portfolio",
         "activeLink": ""
     },
@@ -13,7 +13,7 @@
         "title": "Photo Journal",
         "techStack": "Swift, SwiftUI, Core Data",
         "description": "Mobile iOS app that can ...",
-        "image": "NOT YET",
+        "image": "https://as2.ftcdn.net/v2/jpg/00/76/71/33/1000_F_76713333_KzwTtRrLT9qlaX8O03Fkz6Cvxo5qyFo9.jpg",
         "ghLink": "https://github.com/mckorling/photo-journal-capstone",
         "activeLink": ""
     },
@@ -22,7 +22,7 @@
         "title": "Inspiration Board (back end)",
         "techStack": "Python, Flask, Postgres, Heroku",
         "description": "Create different boards with inspirational messages",
-        "image": "",
+        "image": "https://as1.ftcdn.net/v2/jpg/02/32/40/42/1000_F_232404287_v7UZUMVsGLTQCJqxl6qSlBmL5Vw6gPXS.jpg",
         "ghLink": "https://github.com/mckorling/back-end-inspiration-board",
         "activeLink": ""
     },
@@ -31,7 +31,7 @@
         "title": "Inspiration Board (front end)",
         "techStack": "React, JavaScript, CSS",
         "description": "Create different boards with inspirational messages",
-        "image": "",
+        "image": "https://as1.ftcdn.net/v2/jpg/02/32/40/42/1000_F_232404287_v7UZUMVsGLTQCJqxl6qSlBmL5Vw6gPXS.jpg",
         "ghLink": "https://github.com/mckorling/front-end-inspiration-board",
         "activeLink": ""
     },
@@ -40,7 +40,7 @@
         "title": "Chatlog",
         "techStack": "React, JavaScript",
         "description": "render chat messages",
-        "image": "",
+        "image": "photojournal.png",
         "ghLink": "https://github.com/mckorling/react-chatlog",
         "activeLink": ""
     },
@@ -49,7 +49,7 @@
         "title": "Adopt Me",
         "techStack": "React, JavaScript",
         "description": "Tutorial project",
-        "image": "",
+        "image": "https://as1.ftcdn.net/v2/jpg/02/67/74/82/1000_F_267748263_NUE68gQgLh6pnZ0lYg0sRLuN790pGcMT.jpg",
         "ghLink": "https://github.com/mckorling/pet-adoption-react-app",
         "activeLink": ""
     },
@@ -58,7 +58,7 @@
         "title": "Command Line Wordle",
         "techStack": "Python",
         "description": "recreating the wordle game",
-        "image": "",
+        "image": "https://as1.ftcdn.net/v2/jpg/03/36/82/26/1000_F_336822665_YXHaZ2voV7N5HUZoPsQI3WdIWJhFAxpZ.jpg",
         "ghLink": "",
         "activeLink": ""
     }

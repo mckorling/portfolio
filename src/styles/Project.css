@@ -1,0 +1,26 @@
+.singleProject {
+    border-left: #fff solid 5px;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+    padding: 0em 2em 2em 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.singleProject img {
+    width: 300px;
+    height: 300px;
+}
+
+.singleProject h2 {
+    font-size: 2.5em;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
