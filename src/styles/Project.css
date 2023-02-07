@@ -10,14 +10,13 @@
     justify-content: space-between;
 }
 
+.singleProject p {
+    font-size: 1.5em;
+}
+
 .singleProject img {
     width: 300px;
     height: 300px;
-}
-
-.singleProject h2 {
-    font-size: 2.5em;
-    margin-top: 0;
 }
 
 .textContainer {
@@ -25,10 +24,15 @@
     flex-direction: column;
     justify-content: space-between;
     min-width: 300px;
-    max-width: fit-content;
+    max-width: 60%;
     margin-bottom: 1em;
 }
 
-.singleProject p {
-    font-size: 1.5em;
+.singleProject h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.imageContainer {
+    align-self: center;
 }

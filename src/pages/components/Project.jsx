@@ -11,7 +11,7 @@ const Project = (props) => {
                 <p>{props.description}</p>
                 <a href={props.github} rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             </div>
-            <div>
+            <div className="imageContainer">
                 <img src={props.image} alt="describing project"/>
             </div>
         </div>
