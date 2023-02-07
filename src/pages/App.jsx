@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Layout from './Layout';
-import NoPage from './pages/NoPage';
-import Experience from './pages/Experience';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Layout from './components/Layout';
+import NoPage from './NoPage';
+import Experience from './Experience';
 import '../src/styles/App.css'
 
 function App() {
