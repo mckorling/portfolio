@@ -1,5 +1,6 @@
 import projectData from "../data/projectsData.json"
 import Project from "./components/Project"
+import '../styles/Projects.css'
 
 const Projects = () => {
     const projectComponents = projectData.map((p) => (
@@ -14,8 +15,8 @@ const Projects = () => {
         ></Project>
     ))
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className="projects">
+            {/* <h2>Projects</h2> */}
             {projectComponents}
         </div>
     )
