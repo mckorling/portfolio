@@ -40,7 +40,7 @@
         "title": "Chatlog",
         "techStack": "React, JavaScript",
         "description": "render chat messages",
-        "image": "photojournal.png",
+        "image": "https://as2.ftcdn.net/v2/jpg/02/06/59/57/1000_F_206595720_Ov7BrkPM38eQRd773RuBl1iij9MiFUcT.jpg",
         "ghLink": "https://github.com/mckorling/react-chatlog",
         "activeLink": ""
     },
