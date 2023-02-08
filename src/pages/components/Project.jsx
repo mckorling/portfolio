@@ -4,17 +4,13 @@ import "../../styles/Project.css"
 
 const Project = (props) => {
     return (
-        <div className="singleProject">
-            <div className="textContainer">
-                <h2>{props.title}</h2>
-                <p>{props.tech}</p>
-                <p>{props.description}</p>
-                <a href={props.github} rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-            </div>
-            <div className="imageContainer">
-                <img src={props.image} alt="describing project"/>
-            </div>
-        </div>
+        <section className="project__item">
+            <h3>{props.title}</h3>
+            <p>{props.tech}</p>
+            <p>{props.description}</p>
+            <a href={props.github} rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+            <img src={props.image} alt="describing project" className="project__img"/>
+        </section>
     )
 }
 

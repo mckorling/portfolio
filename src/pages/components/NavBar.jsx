@@ -3,22 +3,27 @@ import '../../styles/NavBar.css'
 
 const NavBar = () => {
     return (
-        <nav className="navBar">
-            <ul className="menu">
-                <li>
-                    <Link to="/" className="link">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about" className="link">About</Link>
-                </li>
-                <li>
-                    <Link to="/projects" className="link">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/experience" className="link">Experience</Link>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <button className="nav__toggle" aria-label="toggle navigation">
+                <span className="hamburger"></span>
+            </button>
+            <nav className="nav">
+                <ul className="nav__list">
+                    <li className="nav__item">
+                        <Link to="/" className="link">Home</Link>
+                    </li>
+                    <li className="nav__item">
+                        <Link to="/about" className="link">About</Link>
+                    </li>
+                    <li className="nav__item">
+                        <Link to="/projects" className="link">Projects</Link>
+                    </li>
+                    <li className="nav__item">
+                        <Link to="/experience" className="link">Experience</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 

@@ -1,6 +1,7 @@
 import projectData from "../data/projectsData.json"
 import Project from "./components/Project"
 import '../styles/Projects.css'
+import '../styles/App.css'
 
 const Projects = () => {
     const projectComponents = projectData.map((p) => (
@@ -15,10 +16,10 @@ const Projects = () => {
         ></Project>
     ))
     return (
-        <div className="projects">
-            {/* <h2>Projects</h2> */}
+        <section className="projects">
+            <h2 className="section__title">My Projects</h2>
             {projectComponents}
-        </div>
+        </section>
     )
 }
 
