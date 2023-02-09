@@ -2,13 +2,24 @@
     position: relative;
     margin: 0 auto;
     max-width: 1000px;
+    padding-left: 3em;
 }
 
 .about__img {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+.about .social {
+    color: var(--clr-dark);
+    padding-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.about .social:hover {
+    color: var(--clr-accent);
+}
+
+@media (min-width: 650px) {
     .about {
         display: grid;
         column-gap: 2em;

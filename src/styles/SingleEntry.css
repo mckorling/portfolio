@@ -5,7 +5,7 @@
 .history__item--list {
     line-height: 1.5;
     list-style-type: circle;
-    padding-left: 0;
+    padding-left: 0.7em;
 }
 
 .history__item {
