@@ -25,9 +25,18 @@ header {
     transform: translateX(100%);
 }
 
-.nav__toggle--show .nav {
-    position: fixed;
+.open .hamburger {
+    transform: rotate(0.625turn);
 }
+
+.open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.open .hamburger::after {
+    opacity: 0;
+}
+
 
 .nav__list {
     display: flex;
@@ -45,7 +54,7 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     left: 1em;
     top: 1em;

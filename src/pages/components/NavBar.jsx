@@ -9,7 +9,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className="section__nav">
+        <header className={showNavToggle ? "section__nav open" : "section__nav"}>
             <button className="nav__toggle" aria-label="toggle navigation" onClick={() => setNavToggle()}>
                 <span className="hamburger"></span>
             </button>
