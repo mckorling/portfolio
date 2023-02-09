@@ -1,11 +1,11 @@
 import projectData from "../data/projectsData.json"
-import Project from "./components/Project"
+import ProjectItem from "./components/ProjectItem"
 import '../styles/Projects.css'
 import '../styles/App.css'
 
 const Projects = () => {
     const projectComponents = projectData.map((p) => (
-        <Project
+        <ProjectItem
             key={p.id}
             title={p.title}
             tech={p.techStack}
@@ -13,12 +13,12 @@ const Projects = () => {
             image={p.image}
             github={p.ghLink}
             activeLink={p.activeLink}
-        ></Project>
+        ></ProjectItem>
     ))
     return (
         <section className="projects">
             <h2 className="section__title section__title--projects">My Projects</h2>
-            {projectComponents}
+            <div className="projects__list">{projectComponents}</div>
         </section>
     )
 }

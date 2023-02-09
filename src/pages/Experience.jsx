@@ -1,30 +1,30 @@
 import educationHistory from '../data/education.json'
 import workHistory from '../data/work.json'
-import Education from './components/Education'
-import Work from './components/Work'
+import EducationItem from './components/EducationItem'
+import WorkItem from './components/WorkItem'
 import '../styles/Experience.css'
 
 const Experience = () => {
     const educationComponents = educationHistory.map((edu) => (
-        <Education
+        <EducationItem
             key={edu.id}
             school={edu.school}
             location={edu.location}
             dates={edu.dates}
             degree={edu.degree}
             focus={edu.focus}
-        ></Education>
+        ></EducationItem>
     ))
 
     const workComponents = workHistory.map((work) => (
-        <Work
+        <WorkItem
             key={work.id}
             company={work.company}
             dates={work.dates}
             title={work.title}
             location={work.location}
             description={work.description}
-        ></Work>
+        ></WorkItem>
     ))
 
     return (

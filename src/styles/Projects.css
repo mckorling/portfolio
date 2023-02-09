@@ -1,8 +1,6 @@
 .projects {
     margin: 0 auto;
     width: 90%;
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
     padding: 1em 2em;
 }
 
@@ -11,4 +9,13 @@
     text-align: right;
     border-bottom: 5px solid var(--clr-accent);
     color: var(--clr-accent);
+}
+
+@media (min-width: 1400px) {
+    .projects__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3em;
+        row-gap: 3em;
+    }
 }

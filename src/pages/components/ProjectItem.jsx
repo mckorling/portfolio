@@ -1,6 +1,6 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../styles/Project.css"
+import "../../styles/ProjectItem.css"
 import "../../styles/App.css"
 
 const Project = (props) => {

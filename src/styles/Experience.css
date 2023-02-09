@@ -2,8 +2,6 @@
     text-align: right;
     border-bottom: 5px solid var(--clr-accent);
     color: var(--clr-accent);
-    /* margin-bottom: 1em;
-    margin-top: 1em; */
 }
 
 .experience {
@@ -11,10 +9,3 @@
     width: 90%;
     padding: 1em 2em;
 }
-
-
-/* 
-
-background dark
-
-on home page change hover color for linked in to be dark */
