@@ -5,12 +5,12 @@ const Work = (props) => {
         <li key={index}>{d}</li>
     ));
     return (
-        <div className='singleContainer'>
-            <h3>{props.company}</h3>
+        <div className='history__item'>
+            <h3 className='history__item--subtitle'>{props.company}</h3>
             <p>{props.title}</p>
-            <p>{props.dates}</p>
-            <p>{props.location}</p>
-            <ul>
+            <p className='history__item--small'>{props.dates}</p>
+            <p className='history__item--small'>{props.location}</p>
+            <ul className='history__item--list'>
                 {descriptions}
             </ul>
         </div>

@@ -28,12 +28,12 @@ const Experience = () => {
     ))
 
     return (
-        <div className='experienceContainer'>
-            <h2>Work History</h2>
+        <section className='experience'>
+            <h2 className='section__subtitle--experience'>Work History</h2>
             {workComponents}
-            <h2>Education</h2>
+            <h2 className='section__subtitle--experience'>Education</h2>
             {educationComponents}
-        </div>
+        </section>
     )
 }
 

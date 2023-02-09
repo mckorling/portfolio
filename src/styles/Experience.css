@@ -1,16 +1,12 @@
-.experienceContainer {
-    width: 70%;
-    margin: auto;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
+.section__subtitle--experience {
+    text-align: right;
+    border-bottom: 5px solid var(--clr-accent);
+    color: var(--clr-accent);
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
-.experienceContainer h2 {
-    font-size: 3em;
-    width: fit-content;
-    border-bottom: 5px solid #fff;
-    border-left: 5px solid #fff;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+.experience {
+    margin: 0 auto;
+    width: 90%;
 }
