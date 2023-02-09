@@ -10,12 +10,12 @@ const Home = () => {
             <h1 className="section__title section__title--home">
                 Hi! I'm <span className="section__title--name">Megan Korling</span>
             </h1>
-            <p className="section__subtitle section__subtitle--home">Full Stack Software Developer</p>
-            {/* <ul className="social-list">
-                <li className="social-list__item"><a href="https://github.com/mckorling" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li className="social-list__item"><a href="https://www.linkedin.com/in/megan-korling-17804557" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-            </ul> */}
+            <p className="section__subtitle section__subtitle--home">
+                Full Stack Software Developer
+                <a href="https://www.linkedin.com/in/megan-korling-17804557" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            </p>
             <img src={headshot} alt="headshot of me" className="home__img"/>
+            
         </section>
     )
 }

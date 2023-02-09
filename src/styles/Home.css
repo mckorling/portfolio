@@ -6,6 +6,10 @@
     box-shadow: var(--bs);
 }
 
+.home a {
+    padding-left: 1em;
+}
+
 @media (min-width: 600px) {
     .home {
         display: grid;

@@ -41,7 +41,7 @@
     margin: 0;
     font-family: var(--font);
     font-size: var(--fs-p);
-    line-height: 1;
+    line-height: 1.25;
 }
 
 img {

@@ -1,14 +1,16 @@
 import '../styles/About.css'
-import headshot from '../assets/headshot1.jpeg'
+import '../styles/App.css'
+import verticalPic from '../assets/IMG_2357.jpeg'
 
 const About = () => {
     return (
         <section className='about'>
             <h2 className='section__title section_title--about'>Hello, World!</h2>
-            <p className='section__subtitle section__subtitle--about'>Enter some subtitle here</p>
+            <p className='section__subtitle section__subtitle--about'>I am a full stack developer who...</p>
+            <img src={verticalPic} alt="headshot of me" className='about__img'/>
             <div className='about__body'>
                 <p>
-                    I am a full stack developer who is passionate about learning and working on a 
+                    Is passionate about learning and working on a 
                     team that encourages collaboration, questions, and growth. I have worked in 
                     both Travel and Education in the past and would love to work on something that 
                     helps traveling and/or education be simple and accessible for all. 
@@ -21,7 +23,7 @@ const About = () => {
                     excited to learn new languages and frameworks as I grow.
                 </p>
             </div>
-            <img src={headshot} alt="headshot of me" />
+            
         </section>
     )
 }
