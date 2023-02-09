@@ -3,8 +3,12 @@
     width: 90%;
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    padding: 1em 2em;
 }
 
 .section__title--projects {
     text-align: center;
+    text-align: right;
+    border-bottom: 5px solid var(--clr-accent);
+    color: var(--clr-accent);
 }

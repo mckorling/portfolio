@@ -10,6 +10,11 @@
 .project__item--description .social {
     padding-right: 0.78em;
     font-size: 1.55em;
+    color: var(--clr-light);
+}
+
+.project__item--description .social:hover {
+    color: var(--clr-accent);
 }
 
 .project__item--tech {

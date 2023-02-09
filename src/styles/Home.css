@@ -6,8 +6,13 @@
     box-shadow: var(--bs);
 }
 
-.home a {
+.home .social {
     padding-left: 1em;
+    color: var(--clr-dark);
+}
+
+.home .social:hover {
+    color: var(--clr-light);
 }
 
 @media (min-width: 600px) {

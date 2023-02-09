@@ -6,8 +6,7 @@ const Education = (props) => {
             <h3 className='history__item--subtitle'>{props.school}</h3>
             <p className='history__item--small'>{props.location}</p>
             <p className='history__item--small'>{props.dates}</p>
-            <p>{props.degree}</p>
-            <p>{props.focus}</p>
+            <p>{props.degree}: {props.focus}</p>
         </div>
     )
 }
