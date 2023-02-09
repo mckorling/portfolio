@@ -12,7 +12,7 @@ const Home = () => {
             </h1>
             <p className="section__subtitle section__subtitle--home">
                 Full Stack Software Developer
-                <a href="https://www.linkedin.com/in/megan-korling-17804557" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a className="social" href="https://www.linkedin.com/in/megan-korling-17804557" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </p>
             <img src={headshot} alt="headshot of me" className="home__img"/>
             

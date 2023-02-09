@@ -95,3 +95,12 @@ h3 {
     margin-bottom: 1em;
     padding: 0.25em 1em;
 }
+
+.social,
+.social:visited {
+    color: var(--clr-light);
+}
+
+.social:hover {
+    color: var(--clr-accent)
+}

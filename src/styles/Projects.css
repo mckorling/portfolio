@@ -1,8 +1,10 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 5vh;
+    margin: 0 auto;
+    width: 90%;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+
+.section__title--projects {
+    text-align: center;
 }

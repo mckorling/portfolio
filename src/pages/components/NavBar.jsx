@@ -3,7 +3,7 @@ import '../../styles/NavBar.css'
 
 const NavBar = () => {
     return (
-        <header>
+        <header className="section__nav">
             <button className="nav__toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
