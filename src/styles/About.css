@@ -7,6 +7,8 @@
 
 .about__img {
     box-shadow: var(--bs);
+    width: 300px;
+    margin: 0 auto;
 }
 
 .about .social {
@@ -19,7 +21,13 @@
     color: var(--clr-accent);
 }
 
-@media (min-width: 650px) {
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 800px) {
     .about {
         display: grid;
         column-gap: 2em;
