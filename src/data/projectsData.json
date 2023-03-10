@@ -36,21 +36,12 @@
         "activeLink": ""
     },
     {
-        "id": "6",
-        "title": "Adopt Me",
-        "techStack": "React, JavaScript, Vite",
-        "description": "Creating a pet adoption React app following a Frontend Masters tutorial",
-        "image": "https://as1.ftcdn.net/v2/jpg/02/67/74/82/1000_F_267748263_NUE68gQgLh6pnZ0lYg0sRLuN790pGcMT.jpg",
-        "ghLink": "https://github.com/mckorling/pet-adoption-react-app",
-        "activeLink": ""
-    },
-    {
-        "id": "7",
-        "title": "Command Line Wordle",
-        "techStack": "Python",
-        "description": "Work in progress...",
-        "image": "https://as1.ftcdn.net/v2/jpg/03/36/82/26/1000_F_336822665_YXHaZ2voV7N5HUZoPsQI3WdIWJhFAxpZ.jpg",
-        "ghLink": "",
-        "activeLink": ""
+        "id": "5",
+        "title": "Project Manager",
+        "techStack": "Next.js, PostgreSQL, Vercel",
+        "description": "Following a tutorial on Frontend Masters, this is a personal project manager. It is a work in progress, but you can create an account to explore.",
+        "image": "https://as1.ftcdn.net/v2/jpg/03/08/63/06/1000_F_308630672_yJNplzh3KD7RSDGZ7Oj0ektMmkxut4Th.jpg",
+        "ghLink": "https://github.com/mckorling/project-manager",
+        "activeLink": "https://project-manager-kappa.vercel.app/home"
     }
 ]
