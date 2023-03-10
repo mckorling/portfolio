@@ -1,7 +1,7 @@
 import '../styles/About.css'
 import '../styles/App.css'
 import verticalPic from '../assets/IMG_2357.jpeg'
-import { faLinkedin, faPython, faSquareJs, faJava, faReact, faHtml5, faCss3,  } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
