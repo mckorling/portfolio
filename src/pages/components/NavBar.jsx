@@ -16,7 +16,7 @@ const NavBar = () => {
             <nav className={showNavToggle ? "nav nav__toggle--show" : "nav nav__toggle--close"}>
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <Link to="/about" className="link" onClick={() => setNavToggle()}>About Me</Link>
+                        <Link to="/" className="link" onClick={() => setNavToggle()}>About Me</Link>
                     </li>
                     <li className="nav__item">
                         <Link to="/projects" className="link" onClick={() => setNavToggle()}>Projects</Link>
