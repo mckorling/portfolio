@@ -6,7 +6,7 @@
         "description": "Welcome, you are already viewing my personal portfolio. It is deployed via github pages and highlights my work history, education, a little about me, and some projects that I have completed.",
         "image": "https://as2.ftcdn.net/v2/jpg/03/39/00/23/1000_F_339002325_ZgEW09DzhAAd3dmEPpv3mnPlzlCEn56C.jpg",
         "ghLink": "https://github.com/mckorling/portfolio",
-        "activeLink": ""
+        "activeLink": "https://mckorling.github.io/portfolio/"
     },
     {
         "id": "2",
@@ -15,7 +15,7 @@
         "description": "Completed as my capstone project for Ada Developers Academy, this is a mobile iOS app that acts as a photo journal. A user can create journal entries and add a title, date, location, text, and up to three pictures from their camera roll. This entry is saved directly to their phone and can be pulled up again for viewing from either a list or map overlay.",
         "image": "https://as2.ftcdn.net/v2/jpg/00/76/71/33/1000_F_76713333_KzwTtRrLT9qlaX8O03Fkz6Cvxo5qyFo9.jpg",
         "ghLink": "https://github.com/mckorling/photo-journal-capstone",
-        "activeLink": ""
+        "activeLink": "https://www.youtube.com/watch?v=HxCmPYxnV28"
     },
     {
         "id": "3",

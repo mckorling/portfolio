@@ -57,3 +57,13 @@
         margin: 0 auto;
     }
 }
+
+.active:hover {
+    color: var(--clr-accent)
+}
+
+.active {
+    color: var(--clr-light);
+    margin-left: 0.75em;
+    font-size: 1.15em;
+}
