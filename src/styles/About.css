@@ -49,16 +49,4 @@
     .about__body--text {
         margin-right: 2em;
     }
-
-    /* .section__subtitle--about {
-        grid-column: -1 / 1;
-        grid-row: 2;
-        text-align: right;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        text-align: left;
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    } */
 }
