@@ -28,24 +28,29 @@
     flex-wrap: wrap;
 }
 
+.tech-stack a {
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+}
+
 @media (min-width: 800px) {
     .about {
-        display: grid;
-        column-gap: 2em;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-template-columns: 1fr 300px;
+        display: flex;
+        flex-direction: column;
     }
 
-    .about__img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
+    .about__body {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 1em;
     }
 
-    .section__subtitle--about {
+    .about__body--text {
+        margin-right: 2em;
+    }
+
+    /* .section__subtitle--about {
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
@@ -55,5 +60,5 @@
         text-align: left;
         padding-left: 1em;
         padding-right: calc(200px + 4em);
-    }
+    } */
 }
